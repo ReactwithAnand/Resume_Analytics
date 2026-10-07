@@ -17,9 +17,9 @@ const pageHeadings = {
     title: 'AI Interview',
     subtitle: 'Practice your interview skills and improve your confidence.',
   },
-  '/resume-analysis': {
-    title: 'Resume Analysis',
-    subtitle: 'Review your resume and find ways to improve it.',
+  '/jdAnalysis': {
+    title: 'Job Description Analysis',
+    subtitle: 'Analyze job descriptions and tailor your applications.',
   },
   '/job-finder': {
     title: 'Job Finder',
