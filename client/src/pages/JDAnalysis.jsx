@@ -42,7 +42,7 @@ const JDAnalysis = () => {
       <div className="h-32 shrink-0 max-lg:h-auto">
         <ScoreCard analysis={analysis} />
       </div>
-      <div className="flex h-[15.8rem] shrink-0 gap-4 max-lg:h-auto max-lg:flex-col">
+      <div className="flex h-[15.8rem] mt-[1.7rem] shrink-0 gap-4 max-lg:h-auto max-lg:flex-col">
         <AreasToImprove items={analysis.missingKeywords || []} />
         <WorkingWell items={analysis.matchedKeywords || []} />
       </div>

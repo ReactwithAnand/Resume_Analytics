@@ -4,7 +4,7 @@ export default function ScoreCard({ analysis = {} }) {
   const score = Number(analysis.matchScore) || 0
 
   return (
-    <section className="grid max-h-[8rem] overflow-hidden border-[2px] border-black bg-white shadow-[7px_7px_0_#111] md:grid-cols-[minmax(100px,16%)_1fr] max-md:max-h-none max-md:grid-cols-1">
+    <section className="grid max-h-[8rem] mt-[2rem] overflow-hidden border-[2px] border-black bg-white shadow-[7px_7px_0_#111] md:grid-cols-[minmax(100px,16%)_1fr] max-md:max-h-none max-md:grid-cols-1">
       <div className="grid place-items-center bg-[#ddd6ff] p-3">
         <div className="relative grid h-[clamp(95px,11vh,128px)] w-[clamp(95px,11vh,128px)] place-items-center rounded-full" style={{ background: `conic-gradient(#bdbec6 0deg ${(100 - score) * 3.6}deg, #7650ea ${(100 - score) * 3.6}deg 360deg)` }}>
           <div className="grid h-[74%] w-[74%] text-[1.4rem] font-extrabold place-items-center rounded-full bg-[#ddd6ff] font-bold">{score}%</div>
